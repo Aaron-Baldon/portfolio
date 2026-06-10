@@ -1,6 +1,6 @@
 import { Banner } from "@/components/layout/banner";
 import { MainContent } from "@/components/layout/main-content";
-import { Sidebar } from "@/components/layout/sidebar";
+import { ProfileCard } from "@/components/layout/profile-card";
 import { Container } from "@/components/ui/container";
 
 export default function HomePage() {
@@ -10,7 +10,7 @@ export default function HomePage() {
         <Banner />
 
         <div className="mt-8 grid gap-8 lg:grid-cols-[320px_1fr]">
-          <Sidebar />
+          <ProfileCard />
           <MainContent />
         </div>
       </Container>
