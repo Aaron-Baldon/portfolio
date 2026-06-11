@@ -1,8 +1,8 @@
 export const timelineItems = [
   {
     title: "Computer Science Student",
-    organization: "Your University",
-    date: "2024 — Present",
+    organization: "Lyceum of Alabang",
+    date: "2023 — Present",
     description:
       "Studying software development, data structures, algorithms, databases, and modern web technologies.",
   },

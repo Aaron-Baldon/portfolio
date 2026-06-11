@@ -7,24 +7,30 @@ export const projects: Project[] = [
     description:
       "Personal portfolio built with Next.js and TypeScript.",
     tags: ["Next.js", "TypeScript", "Tailwind"],
-    image: "/images/project-1.jpg",
+    image: "/images/portfolio.png",
   },
 
-  {
-    id: "converter",
-    title: "File Converter SaaS",
-    description:
-      "Privacy-first file conversion platform.",
-    tags: ["Next.js", "Supabase", "CloudConvert"],
-    image: "/images/project-2.jpg",
-  },
+{
+  id: "converter",
+  title: "Convertly",
+  description:
+    "Privacy-first file conversion platform focused on speed, simplicity, and modern user experience.",
+  tags: [
+    "Vite",
+    "React",
+    "TypeScript",
+    "shadcn/ui",
+    "Tailwind CSS",
+  ],
+  image: "/images/convertly.png",
+},
 
   {
     id: "youtube",
-    title: "YouTube Growth System",
+    title: "YouTube Channel (Tutorials)",
     description:
-      "Content pipeline generating hundreds of thousands of monthly views.",
+      "Content tutorials channel generating hundreds of thousands of monthly views.",
     tags: ["SEO", "Analytics", "Automation"],
-    image: "/images/project-3.jpg",
+    image: "/images/YTchannel.png",
   },
 ];
