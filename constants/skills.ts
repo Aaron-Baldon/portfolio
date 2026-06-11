@@ -12,6 +12,7 @@ export const skills = {
     "React",
     "Tailwind CSS",
     "Node.js",
+    "React/React Native",
   ],
 
   databases: [

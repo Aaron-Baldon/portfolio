@@ -1,18 +1,25 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export function ProfileCard() {
   return (
     <Card className="sticky top-6">
       <div className="flex flex-col items-center text-center">
-        <div className="h-32 w-32 rounded-full bg-zinc-800" />
+        <Image
+  src="/images/profile.jpg"
+  alt="Profile"
+  width={128}
+  height={128}
+  className="h-32 w-32 rounded-full object-cover"
+/>
 
         <h1 className="mt-6 text-2xl font-bold">
-          Your Name
+          Aaron Joseph Baldon
         </h1>
 
         <p className="mt-1 text-zinc-400">
-          Computer Science Student
+          Computer Science Student | Content Creator
         </p>
 
         <p className="mt-4 text-sm leading-relaxed text-zinc-500">
