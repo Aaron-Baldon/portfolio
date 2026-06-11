@@ -20,11 +20,11 @@ export function Button({
 }: ButtonProps) {
   return (
     <button
-      className={cn(
-        "inline-flex h-11 items-center justify-center rounded-full px-6 text-sm font-medium transition-colors",
-        variants[variant],
-        className
-      )}
+    className={cn(
+    "inline-flex h-11 items-center justify-center rounded-full px-6 text-sm font-medium transition-all duration-300 hover:-translate-y-0.5",
+     variants[variant],
+     className
+   )} 
       {...props}
     />
   );

@@ -7,7 +7,7 @@ export function ProjectCard({
   project: Project;
 }) {
   return (
-    <Card className="group overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:border-zinc-700">
+    <Card className="group overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:border-zinc-700 hover:shadow-2xl">
       <div className="h-48 rounded-2xl bg-zinc-800" />
 
       <h3 className="mt-5 text-xl font-semibold">
