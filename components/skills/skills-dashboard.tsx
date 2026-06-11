@@ -3,7 +3,7 @@ import { SkillCategory } from "./skill-category";
 
 export function SkillsDashboard() {
   return (
-    <section className="mt-16">
+    <section id="skills" className="mt-16">
       <div className="mb-8">
         <h2 className="text-3xl font-bold">
           Technical Skills

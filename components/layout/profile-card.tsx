@@ -6,14 +6,13 @@ export function ProfileCard() {
   return (
     <Card className="sticky top-6">
       <div className="flex flex-col items-center text-center">
-        <Image
+       <Image
   src="/images/profile.jpg"
-  alt="Profile"
+  alt="Your Name Profile Picture"
   width={128}
   height={128}
-  className="h-32 w-32 rounded-full object-cover"
+  className="rounded-full object-cover"
 />
-
         <h1 className="mt-6 text-2xl font-bold">
           Aaron Joseph Baldon
         </h1>
@@ -55,10 +54,30 @@ export function ProfileCard() {
         </div>
 
         <div className="mt-8 flex gap-4 text-sm text-zinc-400">
-          <a href="#">GitHub</a>
-          <a href="#">LinkedIn</a>
-          <a href="#">YouTube</a>
-        </div>
+  <a
+    href="https://github.com/Aaron-Baldon"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    GitHub
+  </a>
+
+  <a
+    href="https://linkedin.com/in/yourusername"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    LinkedIn
+  </a>
+
+  <a
+    href="https://www.youtube.com/@Guideonn"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    YouTube
+  </a>
+</div>
       </div>
     </Card>
   );

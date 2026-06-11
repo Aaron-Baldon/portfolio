@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 
 export function TimelineSection() {
   return (
-    <section className="mt-16">
+    <section id="experience" className="mt-16">
       <div className="mb-8">
         <h2 className="text-3xl font-bold">Education & Experience</h2>
         <p className="mt-2 text-zinc-400">

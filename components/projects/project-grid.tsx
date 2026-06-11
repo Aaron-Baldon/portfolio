@@ -3,7 +3,7 @@ import { ProjectCard } from "./project-card";
 
 export function ProjectGrid() {
   return (
-    <section>
+    <section id="projects">
       <div className="mb-8">
         <h2 className="text-3xl font-bold">
           Featured Projects
